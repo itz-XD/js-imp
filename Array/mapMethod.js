@@ -21,8 +21,8 @@ const users = [
 ]
 
 const userNames = users.map((user) => {
-    return user;
-    // return user.firstName;
+    // return user;
+    return user.firstName;
 })
 
 console.log(userNames);
